@@ -48,9 +48,9 @@ public class Main {
         if (ageOfTheCild>5 && ageOfTheCild<14){
             System.out.println(" он может кататься на аттракционе в сопровождении взрослого. ");
         }
-        if(ageOfTheCild>14)
+        if(ageOfTheCild>14) {
             System.out.println(" он может кататься на оттракционе без сопроваждения .");
-
+        }
 
 
 
