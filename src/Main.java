@@ -11,17 +11,18 @@ public class Main {
         }
         int temperatura = -13;
         System.out.print("На улице "+ temperatura+ " градусов,");
-        if (temperatura <=5){
+        if (temperatura <5){
             System.out.println(" нужно одеть шапку ");
-        } else {
+        }
+        if (temperatura>5){
             System.out.println(" можно идти без шапки. ");
         }
         int speedOfTheCar = 100 ;
         System.out.print(" Скорость машины "+ speedOfTheCar+ " км/ч");
         if (speedOfTheCar > 60) {
             System.out.println(" прийдется оплатить штраф !!!!!");
-
-        } else {
+        }
+        if (speedOfTheCar<=60){
             System.out.println(" можно ездить спокойно. ");
         }
 
