@@ -39,6 +39,18 @@ public class Main {
         if(ageOfTheperson>24){
             System.out.println(" то ему пора ходить на работу.");
         }
+        int ageOfTheCild = 7;
+        System.out.print("Если возраст ребенка равен "+ageOfTheCild);
+        if ( ageOfTheCild <5){
+            System.out.println("  он не может кататься на аттракционе!!! ");
+            }
+        if (ageOfTheCild>5 && ageOfTheCild<14){
+            System.out.println(" он может кататься на аттракционе в сопровождении взрослого. ");
+        }
+        if(ageOfTheCild>14)
+            System.out.println(" он может кататься на оттракционе без сопроваждения .");
+
+
 
 
         }
