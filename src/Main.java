@@ -71,7 +71,7 @@ public class Main {
         }else if (three > one && three>two ){
             System.out.println(three);
         }
-
+        System.out.println( "Выполнил дз ");
 
 
 }
