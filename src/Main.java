@@ -23,24 +23,24 @@ public class Main {
             System.out.println(" можно ездить спокойно. ");
         }
 
-        int ageOfTheperson = 7;
-        System.out.print("Если возрост человека равен  " + ageOfTheperson);
-        if (ageOfTheperson > 2 || ageOfTheperson < 6) {
+        int ageOfThePerson = 7;
+        System.out.print("Если возрост человека равен  " + ageOfThePerson);
+        if (ageOfThePerson > 2 || ageOfThePerson < 6) {
             System.out.println(" то ему нужно ходить в садик .");
-        } else if (ageOfTheperson >= 7 || ageOfTheperson <= 17) {
+        } else if (ageOfThePerson >= 7 || ageOfThePerson <= 17) {
             System.out.println(" то ему нужно ходить в школу.");
-        } else if (ageOfTheperson >= 18 || ageOfTheperson <= 24) {
+        } else if (ageOfThePerson >= 18 || ageOfThePerson <= 24) {
             System.out.println(" то ему место  в университете.");
-        } else if (ageOfTheperson > 24) {
+        } else if (ageOfThePerson > 24) {
             System.out.println(" то ему пора ходить на работу.");
         }
-        int ageOfThePerson = 14;
-        System.out.print("Если возраст ребенка равен " + ageOfThePerson);
-        if (ageOfTheperson < 5) {
+        int ageOfTheCild = 14;
+        System.out.print("Если возраст ребенка равен " + ageOfTheCild);
+        if (ageOfTheCild < 5) {
             System.out.println("  он не может кататься на аттракционе!!! ");
-        } else if (ageOfTheperson  >= 5 && ageOfTheperson <= 14) {
+        } else if (ageOfTheCild  >= 5 && ageOfTheCild <= 14) {
             System.out.println(" он может кататься на аттракционе в сопровождении взрослого. ");
-        } else if (ageOfThePerson > 14) {
+        } else if (ageOfTheCild > 14) {
             System.out.println(" он может кататься на оттракционе без сопроваждения .");
         }
         int totalCapacity = 102;
