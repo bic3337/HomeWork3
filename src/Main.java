@@ -51,8 +51,32 @@ public class Main {
         if(ageOfTheCild>14) {
             System.out.println(" он может кататься на оттракционе без сопроваждения .");
         }
-
-
-
+        int totalCapacity =102;
+        int seatingCapacity = 62;
+        int occupiedSeats = 65;
+        if (occupiedSeats<totalCapacity && occupiedSeats>seatingCapacity){
+            System.out.println( "Вагон только стоячии места . ");
+        }else if (occupiedSeats<seatingCapacity){
+            System.out.println("Есть сидячии и стоячии места .");
+        }else {
+            System.out.println( "Вагон полн !!!");
         }
+        int one =1;
+        int two =2;
+        int three =3;
+        if (one>three && one>two ){
+            System.out.println(one);
+        }else if (two>one && two>three){
+            System.out.println(two );
+        }else if (three > one && three>two ){
+            System.out.println(three);
+        }
+
+
+
+}
+
+
+
+
     }
