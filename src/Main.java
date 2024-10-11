@@ -10,11 +10,11 @@ public class Main {
         }
         int temperatura = 90;
         System.out.print("На улице " + temperatura + " градусов,");
-       if (temperatura>5){
-           System.out.println("можно идти без шапки.");
-       }else {
-           System.out.println("нужно надеть шапку.");
-       }
+        if (temperatura > 5) {
+            System.out.println("можно идти без шапки.");
+        } else {
+            System.out.println("нужно надеть шапку.");
+        }
         int speedOfTheCar = 50;
         System.out.print(" Скорость машины " + speedOfTheCar + " км/ч");
         if (speedOfTheCar <= 60) {
@@ -27,18 +27,17 @@ public class Main {
         System.out.print("Если возрост человека равен  " + ageOfThePerson);
         if (ageOfThePerson >= 2 || ageOfThePerson <= 6) {
             System.out.println(" то ему нужно ходить в садик .");
-        } else if (ageOfThePerson >= 7 || ageOfThePerson <= 17)
-            System.out.println(" то ему нужно ходить в школу.");
+        } else if (ageOfThePerson >= 7 || ageOfThePerson <= 17) System.out.println(" то ему нужно ходить в школу.");
         else if (ageOfThePerson >= 18 || ageOfThePerson <= 24) {
             System.out.println(" то ему место  в университете.");
         } else if (ageOfThePerson > 24) {
             System.out.println(" то ему пора ходить на работу.");
         }
-        int ageOfTheCild = 14;
+        int ageOfTheCild = 15;
         System.out.print("Если возраст ребенка равен " + ageOfTheCild);
         if (ageOfTheCild <= 5) {
             System.out.println("  он не может кататься на аттракционе!!! ");
-        } else if (ageOfTheCild  >= 5 || ageOfTheCild <= 14) {
+        } else if (ageOfTheCild >= 5 && ageOfTheCild <= 14) {
             System.out.println(" он может кататься на аттракционе в сопровождении взрослого. ");
         } else if (ageOfTheCild > 14) {
             System.out.println(" он может кататься на оттракционе без сопроваждения .");
@@ -46,7 +45,7 @@ public class Main {
         int totalCapacity = 102;
         int seatingCapacity = 62;
         int occupiedSeats = 65;
-        if (occupiedSeats < totalCapacity || occupiedSeats > seatingCapacity) {
+        if (occupiedSeats < totalCapacity && occupiedSeats > seatingCapacity) {
             System.out.println("В вагоне только стоячии места . ");
         } else if (occupiedSeats < seatingCapacity) {
             System.out.println("В вагоне есть только сидячии и стоячии места .");
