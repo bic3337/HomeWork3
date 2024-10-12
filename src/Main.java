@@ -23,12 +23,13 @@ public class Main {
             System.out.println(" прийдется оплатить штраф !!!!!");
         }
 
-        int ageOfThePerson = 7;
+        int ageOfThePerson = 40;
         System.out.print("Если возрост человека равен  " + ageOfThePerson);
-        if (ageOfThePerson >= 2 || ageOfThePerson <= 6) {
+        if (ageOfThePerson >= 2 && ageOfThePerson <= 6) {
             System.out.println(" то ему нужно ходить в садик .");
-        } else if (ageOfThePerson >= 7 || ageOfThePerson <= 17) System.out.println(" то ему нужно ходить в школу.");
-        else if (ageOfThePerson >= 18 || ageOfThePerson <= 24) {
+        } else if (ageOfThePerson >= 7  && ageOfThePerson <= 17) {
+            System.out.println(" то ему нужно ходить в школу.");
+        } else if (ageOfThePerson >= 18 && ageOfThePerson <= 24) {
             System.out.println(" то ему место  в университете.");
         } else if (ageOfThePerson > 24) {
             System.out.println(" то ему пора ходить на работу.");
